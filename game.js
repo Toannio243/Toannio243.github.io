@@ -217,6 +217,6 @@ function game (data) {
 	terminalOut("<p>Te encuentras en " + data.rooms[current_room].name + ". ?Que es lo que quieres hacer?</p>");
 }
 
-fetch("https://Zerg38.github.io/game.json").then(response => response.json()).then(data => game(data));
+fetch("Toannio243.github.io/game.json").then(response => response.json()).then(data => game(data));
 
 
